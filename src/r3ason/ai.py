@@ -37,7 +37,8 @@ class AI:
                 a list of steps that you would need to take to answer the question or complete the task, \
                 plus a final answer. Each step header should begin with a gerund (e.g., "Thinking about [...]", \
                 "Considering [...]") You will consider all possible factors and how each step relates to the \
-                others. If needed, revise your reasoning. The user will not see the steps that you reason \
+                others. Revisions are needed if you need to make a choice that you did not settle on yet so \
+                that you could proceed with reasoning. The user will not see the steps that you reasoning \
                 about, so you should address each step with it\'s own step-by-step instructions in your final answer.',
         }
 
